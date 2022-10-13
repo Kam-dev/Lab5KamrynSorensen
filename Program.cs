@@ -1,7 +1,7 @@
-﻿// Calling Main() to start program
+﻿// Calling Main() to start my program
 Main();
 
-// Create a driver program "menu" to let the user choose what calculation they want to make.
+// Driver menu program that lets the user choose what calculation they want to make.
 static void Main()
 {
     Boolean isEnded = false;
@@ -16,7 +16,7 @@ static void Main()
         Console.WriteLine("6. Exit");
         Console.Write("Enter choice: ");
         string userInput = Console.ReadLine();
-        Console.WriteLine(); // empty line
+        Console.WriteLine(); // this is to make an empty line
 
         if (userInput == "1")
         {
@@ -60,16 +60,16 @@ static void Main()
             Console.WriteLine("Please make a valid choice.");
         }
 
-        Console.WriteLine(); // empty line
+        Console.WriteLine(); // making another empty line
     }
 
     Console.ReadKey();
 
 }
 
-// Everything below this is a function we will call in Main
+// Everything below this is a function that I will call in Main
 
-// Create a function that asks for user imput and returns the user imput
+// user input function that takes and returns the user's imput
 static string Takeuserinput(string prompt)
 {
     Console.Write(prompt);
@@ -77,7 +77,7 @@ static string Takeuserinput(string prompt)
     return input;
 }
 
-// Create a void function that displaysÂ a cat on the console
+// Void function that displays a cat on the console
 static void Drawcat()
 {
     Console.WriteLine("  A___A");
@@ -86,25 +86,25 @@ static void Drawcat()
     Console.WriteLine("   `-'");
 }
 
-// Create a function that takes two numbers as paramaters adds them together and returns the sum of the two numbers.
+// This is a function that takes two numbers as paramaters adds them together and returns the sum of the two numbers.
 static double Sumoftwonumbers(double x, double y)
 {
     return x + y;
 }
 
-// Create a function that takes two numbers as paramaters subtracts them and returns the difference of the two numbers.
+// This is a function that takes two numbers as paramaters subtracts them and returns the difference of the two numbers.
 static double Subtractionoftwonumbers(double a, double b)
 {
     return a - b;
 }
 
-// Create a function that takes two numbers as paramaters multiplies them together and returns the product of the two numbers.
+// This is a function that takes two numbers as paramaters multiplies them together and returns the product of the two numbers.
 static double Multiplicationoftwonumbers(double c, double d)
 {
     return c * d;
 }
 
-// Create a function that takes two numbers as paramaters, Divides them together and returns the quotent of the two numbers.
+// This is a function that takes two numbers as paramaters, Divides them together and returns the quotent of the two numbers.
 static double Divisionoftwonumbers(double e, double f)
 {
     return e / f;
